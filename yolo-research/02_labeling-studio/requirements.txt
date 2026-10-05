@@ -1,0 +1,16 @@
+# Minimum versions needed by this project's scripts (panorama.py, webcam_detect.py)
+# and notebooks (test4/7/8.ipynb, holography.ipynb, test.ipynb). Uses >= instead of
+# exact pins so `pip install -r requirements.txt` can resolve compatible versions
+# in whichever virtual environment / Python version you're using.
+opencv-python>=4.13.0.92
+numpy>=2.2.6
+matplotlib>=3.10.9
+torch>=2.13.0
+torchvision>=0.28.0
+ultralytics>=8.4.104
+ipykernel>=7.3.0
+
+# torch/torchvision above install whatever build pip resolves for your platform
+# (may be CPU-only). For a specific CUDA build, install from the matching index
+# instead, e.g.:
+#   pip install torch==2.13.0 torchvision==0.28.0 --index-url https://download.pytorch.org/whl/cu130

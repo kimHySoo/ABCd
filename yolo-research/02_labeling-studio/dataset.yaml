@@ -1,0 +1,64 @@
+path: ./data
+train: images/train
+val: images/val
+test: images/test
+
+# Class order matches rummikub.classes.CLASS_NAMES, which matches the class
+# index order baked into best.pt (alphabetical by raw label text, e.g.
+# "Black1" < "Black10" < ... < "Black9" < "Blue1" < ... < "Joker" < "Orange1"
+# < ... < "Red9"), not numeric tile order. Keep this in sync with
+# rummikub/classes.py.
+names:
+  0: black_1
+  1: black_10
+  2: black_11
+  3: black_12
+  4: black_13
+  5: black_2
+  6: black_3
+  7: black_4
+  8: black_5
+  9: black_6
+  10: black_7
+  11: black_8
+  12: black_9
+  13: blue_1
+  14: blue_10
+  15: blue_11
+  16: blue_12
+  17: blue_13
+  18: blue_2
+  19: blue_3
+  20: blue_4
+  21: blue_5
+  22: blue_6
+  23: blue_7
+  24: blue_8
+  25: blue_9
+  26: joker
+  27: orange_1
+  28: orange_10
+  29: orange_11
+  30: orange_12
+  31: orange_13
+  32: orange_2
+  33: orange_3
+  34: orange_4
+  35: orange_5
+  36: orange_6
+  37: orange_7
+  38: orange_8
+  39: orange_9
+  40: red_1
+  41: red_10
+  42: red_11
+  43: red_12
+  44: red_13
+  45: red_2
+  46: red_3
+  47: red_4
+  48: red_5
+  49: red_6
+  50: red_7
+  51: red_8
+  52: red_9

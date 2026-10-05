@@ -1,0 +1,9 @@
+{
+  "model": "yolo26_detector_best.pt (53-class single-stage)",
+  "n": 66,
+  "precision": 0.6502890173410405,
+  "recall": 0.5976095617529881,
+  "f1": 0.6228373702422146,
+  "exact_match": 0.0,
+  "avg_ms": 81.57492727255114
+}

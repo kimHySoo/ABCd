@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 가상환경 / 비밀값
+.venv/
+venv/
+abcd/
+.env
+.env.*
+!.env.example
+
+# 가중치·학습 산출물·데이터 (용량과 촬영 환경 프라이버시 때문에 올리지 않음)
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+weights/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
